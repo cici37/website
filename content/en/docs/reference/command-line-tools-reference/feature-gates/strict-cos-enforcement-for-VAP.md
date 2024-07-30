@@ -8,7 +8,8 @@ _build:
 stages:
   - stage: alpha
     defaultValue: false
-    fromVersion: "1.31"
+    fromVersion: "1.30"
     
 ---
-Enable the enforcement of the strict cost calculation for CEL extended libraries in ValidatingAdmissionPolicy.
+Enable enforcement of the strict cost calculation for CEL extended libraries used within a
+[ValidatingAdmissionPolicy](/docs/reference/access-authn-authz/validating-admission-policy/).

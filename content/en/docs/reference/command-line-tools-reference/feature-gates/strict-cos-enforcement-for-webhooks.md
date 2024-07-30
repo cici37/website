@@ -8,7 +8,9 @@ _build:
 stages:
   - stage: alpha
     defaultValue: false
-    fromVersion: "1.31"
+    fromVersion: "1.30"
     
 ---
-Enable the enforcement of the strict cost calculation for CEL extended libraries in `matchConditions` field under Webhooks.
+Enable enforcement of the strict cost calculation for CEL extended libraries within the
+`matchConditions` field for
+[admission webhooks](/docs/reference/access-authn-authz/extensible-admission-controllers/#what-are-admission-webhooks).
